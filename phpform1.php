@@ -36,7 +36,7 @@ if (isset($_POST['submit'])){
   		# code...
   	if (filter_var($integer, FILTER_VALIDATE_INT) ===0 || !filter_var($integer, FILTER_VALIDATE_INT) === false )
   	 {
-  		$integerErr="valid integer";
+  		$integerErr="";
 		}
 		else
 			{
